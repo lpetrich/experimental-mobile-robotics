@@ -56,7 +56,8 @@ catkin_python_setup()
 add_service_files(
   FILES
   BanditStep.srv
-  BanditChoice.srv
+  BanditAnswer.srv
+  ShapesAnswer.srv
 )
 
 ## Generate actions in the 'action' folder
