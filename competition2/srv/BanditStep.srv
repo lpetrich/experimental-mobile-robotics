@@ -1,0 +1,5 @@
+int32 code
+int32 action
+---
+float64 reward #
+bool valid # Valid passcode or not
