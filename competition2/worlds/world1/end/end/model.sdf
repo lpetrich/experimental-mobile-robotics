@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='one'>
-    <link name='link_0'>
+  <model name='end'>
+    <link name='link_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -13,13 +13,12 @@
           <izz>0.166667</izz>
         </inertia>
       </inertial>
-      <pose>-2e-06 -2e-06 0 0 -0 0</pose>
+      <pose>0 0 0 0 -0 0</pose>
       <visual name='visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/user/catkin_ws/src/competition2/models/one/one.dae</uri>
-            <!-- <uri>model://one/one.dae</uri> -->
+            <uri>model://world1/end/mesh.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -33,8 +32,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/user/catkin_ws/src/competition2/models/one/one.dae</uri>
-            <!-- <uri>model://one/one.dae</uri> -->
+            <uri>model://world1/end/mesh.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
