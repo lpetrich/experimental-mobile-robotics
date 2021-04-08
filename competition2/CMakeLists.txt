@@ -58,6 +58,7 @@ add_service_files(
   BanditStep.srv
   BanditAnswer.srv
   ShapesAnswer.srv
+  MazeAnswer.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -2,28 +2,28 @@
 <!-- Test #1 launch file for competition 2 -->
 <launch>
 
-    <arg name="shapes_count" default="6"/>
-    <arg name="shapes_type" default="red cube"/>
-    <arg name="shapes_room_a" default="1"/>
-    <arg name="shapes_room_b" default="2"/>
-
-    <arg name="bandit_probs" default="0.8, 0.3"/>
-    <arg name="bandit_passcode" default="42"/>
-    <arg name="bandit_num_arms" default="2"/>
-    <arg name="bandit_room_a" default="1"/>
-    <arg name="bandit_room_b" default="2"/>
+	<arg name="shapes_count" default="6"/>
+	<arg name="shapes_type" default="red cube"/>
+	<arg name="shapes_room" default="19"/>
+	<arg name="bandit_probs" default="0.8, 0.3"/>
+	<arg name="bandit_passcode" default="42"/>
+	<arg name="bandit_num_arms" default="2"/>
+    <arg name="bandit_room" default="6"/>
+    <arg name="maze_passcode" default="37"/>
+    <arg name="maze_room" default="3"/>
+    <arg name="final_room" default="8"/>
 
     <node name="competition2_server" pkg="competition2" type="competition2_server.py" output="screen" >
         <param name="shapes_count" value="$(arg shapes_count)"/>
         <param name="shapes_type" value="$(arg shapes_type)"/>
-        <param name="shapes_room_a" value="$(arg shapes_room_a)"/>
-        <param name="shapes_room_b" value="$(arg shapes_room_b)"/>
-
+        <param name="shapes_room" value="$(arg shapes_room)"/>
         <param name="bandit_probs" value="$(arg bandit_probs)"/>
         <param name="bandit_passcode" value="$(arg bandit_passcode)"/>
         <param name="bandit_num_arms" value="$(arg bandit_num_arms)"/>
-        <param name="bandit_room_a" value="$(arg bandit_room_a)"/>
-        <param name="bandit_room_b" value="$(arg bandit_room_b)"/>
+        <param name="bandit_room" value="$(arg bandit_room)"/>
+        <param name="maze_passcode" value="$(arg maze_passcode)"/>
+        <param name="maze_room" value="$(arg maze_room)"/>
+        <param name="final_room" value="$(arg final_room)"/>
     </node>
 
 </launch>

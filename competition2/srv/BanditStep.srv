@@ -1,4 +1,4 @@
-int32 code
+int32 passcode
 int32 action
 ---
 float64 reward #
