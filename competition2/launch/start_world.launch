@@ -1,6 +1,6 @@
 <launch>
     <!-- <arg name="world_file"  default="$(find competition2)/worlds/clue_empty_world.world"/> -->
-    <arg name="world_file"  default="$(find competition2)/worlds/final.world"/>
+    <arg name="world_file"  default="$(find competition2)/worlds/testing.world"/>
     <arg name="paused" default="false"/>
     <arg name="use_sim_time" default="true"/>
     <arg name="gui" default="true"/>

@@ -18789,7 +18789,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/lobby/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/lobby/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -18802,7 +18802,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/lobby/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/lobby/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -18878,7 +18878,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/shapes/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/shapes/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -18891,7 +18891,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/shapes/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/shapes/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -18967,7 +18967,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/maze/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/maze/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -18980,7 +18980,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/maze/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/maze/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -19056,7 +19056,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/end/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/end/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -19069,7 +19069,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/end/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/end/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -19145,7 +19145,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/bandit/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/bandit/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -19158,7 +19158,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://world1/bandit/mesh.dae</uri>
+              <uri>/home/user/catkin_ws/src/competition2/models/bandit/mesh.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
