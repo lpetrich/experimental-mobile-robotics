@@ -18,7 +18,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://world1/map/mesh.dae</uri>
+            <uri>/home/user/catkin_ws/src/competition2/models/map/mesh.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -32,7 +32,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://world1/map/mesh.dae</uri>
+            <uri>/home/user/catkin_ws/src/competition2/models/map/mesh.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
